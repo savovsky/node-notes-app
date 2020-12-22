@@ -1,0 +1,31 @@
+{
+  "name": "node-notes-app",
+  "version": "1.0.0",
+  "description": "Node.js app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./ --ext js",
+    "lint-fix": "eslint ./ --fix --ext js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savovsky/node-notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savovsky/node-notes-app/issues"
+  },
+  "homepage": "https://github.com/savovsky/node-notes-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.5.2",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
